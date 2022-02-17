@@ -1,0 +1,480 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+p {
+  color: #5a5d77;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins" !important;
+}
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-signup-button{
+  width: 120px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+code {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  max-width: 800px;
+  margin-top: 3rem;
+}
+
+.card {
+  margin: 1rem;
+  flex-basis: 45%;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.card h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.logo {
+  height: 1em;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+  .main-content {
+    padding: 15px;
+  }
+}
+
+.start-field-active {
+  border: 1px solid #31b7b7;
+}
+
+.card-form form {
+  height: 50px;
+}
+
+.darkbutton {
+  background-color: #23274F;
+  color: #fff !important;
+}
+
+.darkbutton:hover {
+  background-color: #23274F;
+  color: #fff !important;
+}
+
+.darkbutton-disable {
+  background-color: #ccc;
+  color: #fff !important;
+  cursor: not-allowed;
+}
+
+.darkbutton-disable:hover {
+  background-color: #ccc;
+  color: #fff !important;
+  cursor: not-allowed;
+}
+
+
+.mobileMenu {
+  background-color: #23274F;
+  color: #fff !important;
+  justify-content: space-between;
+}
+.mobileMenu:hover {
+  background-color: #23274F;
+  color: #fff !important;
+  justify-content: space-between;
+}
+.lightbutton {
+  background-color: #fff;
+  border: 2px solid #d9dbe9;
+  box-sizing: border-box;
+  box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  color: #23274f;
+}
+
+.login-buttons .MuiButton-root {
+  margin-right: 20px;
+}
+.MuiButton-root {
+  height: 48px;
+}
+
+.main-content {
+  min-height: 100vh;
+  height: 100%;
+  background: url(/web-background.png);
+  background-size: 120%;
+  background-position: center;
+  padding: 10px;
+}
+
+.banner-container {
+  width: 100%;
+  /* max-width: 1099px; */
+  padding-top: 21px;
+  /* padding-left: 172px;
+  padding-right: 86px; */
+  position: relative;
+}
+.banner-card {
+  width: 100%;
+  max-width: 540px;
+  margin-left: auto;
+  /* float: left; */
+  background: #ffffff;
+  box-shadow: 0px 8px 16px rgba(17, 17, 17, 0.06);
+  border-radius: 16px;
+  overflow: hidden;
+  z-index: 1;
+  margin-top: 50px;
+}
+.card-content {
+  padding: 60px;
+  padding-top: 48px;
+}
+/* .card-content .icons{
+  position: absolute !important;
+  z-index: 1 !important;
+  left: 10px;
+}
+.card-content .css-8je8zh-MuiTouchRipple-root{
+  z-index: 2 !important;
+  width: 30px;
+  height: 30px;
+  top: -5px;
+  left: 10px;
+} */
+.card-content h2 {
+  margin: 0px;
+  margin-bottom: 5px;
+}
+.card-content p {
+  margin-top: 0px;
+}
+.card-buttons {
+  display: grid;
+}
+.right-heading {
+  margin-top: 20px;
+}
+.right-heading .bluecar {
+  position: absolute;
+  top: 50%;
+  transform: translate(-15%, 35%);
+  z-index: 0;
+}
+.right-heading h1 {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 50px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  margin-bottom: 51px;
+  margin-top: 80px;
+}
+.right-heading p {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.custom-input .MuiOutlinedInput-notchedOutline {
+  border: 0px;
+}
+
+.custom-input .MuiOutlinedInput-root {
+  padding: 0px;
+}
+
+/* Sing Up Modal */
+.signup-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-height: 100%;
+  display: block;
+  padding: 60px;
+  box-shadow: unset;
+  border: 0;
+  border-radius: 16px;
+  width: 540px;
+}
+.scroll-y{
+  overflow-y: scroll;
+}
+.signup-modal h2 {
+  font-size: 32px;
+  color: #23274f;
+  font-weight: 700;
+  margin-top: 0;
+}
+.signup-modal h3 {
+  font-size: 30px;
+  color: #23274f;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 28px !important;
+}
+.signup-modal p,
+.signup-modal .termsPolicy {
+  color: #5a5d77;
+  font-size: 16px;
+  font-weight: 400;
+}
+.reset-password{
+  font-size: 14px !important;
+}
+.signup-modal p a,
+.signup-modal .termsPolicy a {
+  color: #31b7b7;
+  font-weight: 700;
+}
+.signup-modal .termsPolicy {
+  font-size: 12px;
+  padding: 0 40px;
+}
+.signup-modal .forgot-password {
+  cursor: pointer;
+}
+.signup-modal .input {
+  margin-bottom: 32px;
+}
+.signup-modal .age {
+  width: 122px;
+}
+.cross-icon {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  cursor: pointer;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.signup-modal .signup-btn {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #23274f;
+  border-radius: 5px;
+  margin-top: 13px;
+}
+.signup-modal .login-btn {
+  margin-top: 39px;
+}
+.forgot-password {
+  margin-top: 33px;
+  text-align: center;
+  color: #31b7b7;
+  font-weight: 700;
+  font-size: 14px;
+}
+.signup-modal .cursor-pointer {
+  cursor: pointer;
+}
+.signup-modal .termsPolicy .cursor-pointer {
+  text-decoration: underline;
+}
+.signup-modal::-webkit-scrollbar {
+  width: 0.2em;
+  height: 0.2rem;
+}
+.signup-modal::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+}
+@media (max-width: 1120px) {
+  .right-heading .bluecar {
+    width: 50%;
+    transform: translate(-16%, 50%);
+  }
+}
+@media (min-width: 576px) {
+  .main-div .input:first-child {
+    margin-right: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .MuiAppBar-root .MuiButton-root {
+    margin-right: 10px;
+  }
+}
+@media (max-width: 900px) {
+  .right-heading h1{
+    margin-top: 0px;
+  }
+}
+@media (max-width: 991px) {
+  .right-heading {
+    margin-left: 32px;
+  }
+  .banner-card {
+    margin: auto;
+    margin-top: 50px;
+  }
+  .right-heading .bluecar {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .right-heading {
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+  .banner-container {
+    flex-direction: column-reverse;
+    margin: 0 30px;
+  }
+  .banner-card {
+    margin: auto;
+    margin-bottom: 70px;
+  }
+  .banner-section {
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width: 575px) {
+  .right-heading {
+    margin-left: 10px;
+  }
+  .right-heading h1 {
+    font-size: 32px;
+  }
+  .right-heading p {
+    font-size: 24px;
+  }
+  .card-content {
+    padding: 30px;
+  }
+  .signup-modal {
+    width: 100%;
+    padding: 60px 24px;
+  }
+
+  .main-div {
+    display: block !important;
+  }
+  .main-div .input {
+    width: 100%;
+  }
+}
+/* @media (max-width: 400px) {
+  .signup-modal .main-div {
+    display: block;
+  }
+} */
+
+.landing-page-container {
+  overflow-x: hidden;
+}
+#free-solo-dialog-demo-listbox,#free-solo-dialog-demo2-listbox{
+  border: 2px solid #31B7B7;
+}
+.alert-error{
+  position: absolute;
+  top:0;
+  right:0;
+  left:0;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  padding-left: 55px;
+}
+.MuiAlert-icon{
+  display: none !important;
+}

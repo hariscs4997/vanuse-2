@@ -1,0 +1,228 @@
+.container {
+  text-align: center;
+}
+
+.bgCon {
+  height: 420px;
+  position: relative;
+  padding-left: 13vw;
+  padding-top: 7vh;
+  background: linear-gradient(114.44deg, #624af24a 0%, #50ddc34a 100%);
+  mix-blend-mode: soft-light;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/Rectangle 471.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.phImg {
+  position: absolute;
+  display: inline-block;
+  top: -38%;
+  right: -100px;
+  height: 175%;
+}
+
+.phImg > img {
+  height: 100%;
+}
+
+.appCon {
+  text-align: left;
+  top: 80px;
+  position: absolute;
+  width: 440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.appCon1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 50px;
+  letter-spacing: 1px;
+  color: #23274f;
+}
+
+.appCon2 {
+  margin-top: 2rem;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.75px;
+  color: #23274f;
+}
+
+.appCon3 {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.appCon3 img {
+  border-radius: 8px;
+}
+
+.referCard {
+  margin: 8rem auto;
+  width: 85vw;
+  height: 26.3vh;
+}
+
+.referCard > div:nth-of-type(1) {
+  min-width: max(890px, 100%);
+  text-align: left;
+}
+
+.referCard > div:nth-of-type(1) > div:first-of-type {
+  justify-content: space-around;
+}
+
+.referCard > div:nth-of-type(1) > div:first-of-type > :first-of-type {
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 767px) {
+  .container {
+    height: unset;
+  }
+
+  .bgCon {
+    height: 520px;
+  }
+
+  .phImg {
+    top: -32%;
+    height: 100%;
+    right: -140px;
+  }
+
+  .appCon {
+    top: unset;
+    left: 2rem;
+    right: 2rem;
+    width: unset;
+    bottom: 5%;
+  }
+
+  .appCon1 {
+    font-size: 2rem;
+    line-height: unset;
+  }
+
+  .appCon2 {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+
+  .appCon3 {
+    margin-top: 1rem;
+  }
+
+  .appCon3 a {
+    width: 48%;
+  }
+
+  .appCon3 a img {
+    width: 100%;
+  }
+
+  .referCard {
+    margin: 5rem auto;
+    width: 80vw;
+    height: unset;
+  }
+
+  .referCard > div:nth-of-type(1) {
+    min-width: 100%;
+    flex-direction: column-reverse !important;
+  }
+
+  .referCard > div:nth-of-type(1) > div:first-of-type {
+    margin: 0 !important;
+  }
+
+  .referCard > div:nth-of-type(1) > div:first-of-type > :first-of-type {
+    margin-bottom: 1rem;
+  }
+
+  .referCard > div:nth-of-type(1) > div:last-of-type {
+    height: unset;
+    background: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    height: unset;
+  }
+
+  .bgCon {
+    height: 45vh;
+  }
+
+  .phImg {
+    right: min(-13%, -230px);
+  }
+
+  .appCon {
+    top: 3rem;
+    width: 45%;
+    left: 8vw;
+  }
+
+  .appCon3 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .appCon3 > a:first-child {
+    margin-bottom: 1rem;
+  }
+
+  .appCon2 {
+    font-size: 1.5rem;
+  }
+
+  .referCard {
+    margin: 9rem auto 5rem auto;
+    width: 60vw;
+    height: unset;
+  }
+
+  .referCard > div:nth-of-type(1) {
+    flex-direction: column-reverse !important;
+    height: unset;
+    min-width: 100%;
+  }
+
+  .referCard > div:nth-of-type(1) > div:first-of-type {
+    margin: 0 !important;
+  }
+
+  .referCard > div:nth-of-type(1) > div:first-of-type > :first-of-type {
+    margin-bottom: 1.5rem;
+  }
+
+  .referCard > div:nth-of-type(1) > div:last-of-type {
+    height: unset;
+    background: none;
+  }
+
+  .referCard > div:nth-of-type(1) > div:last-of-type > img {
+    width: 100%;
+    height: 100%;
+  }
+}

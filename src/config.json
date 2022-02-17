@@ -1,0 +1,11 @@
+{
+  "map": {
+    "mapDefaultCenter": {
+      "long": -0.187174,
+      "lat": 51.52758
+    },
+    "defaultBoundAdd": 1,
+    "mapSingleBoundAdd": 0.001
+  },
+  "debounceTimeMs": 500
+}

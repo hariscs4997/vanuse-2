@@ -1,0 +1,18 @@
+h2 {
+  color: #222b45;
+}
+.custom-input .MuiInputBase-input {
+  color: #6e7191;
+}
+.custom-input .MuiInputBase-input::placeholder {
+  color: #6e7191;
+}
+.custom-input {
+  margin-left: 0;
+}
+.custom-input input {
+  padding-left: 70px;
+}
+.blue-color{
+  color:#23274F !important;
+}

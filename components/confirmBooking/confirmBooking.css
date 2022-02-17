@@ -1,0 +1,62 @@
+.booking-time{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: #F7F7FC;
+    border-radius: 5px;
+    padding: 16px 14px;
+    margin-bottom: 18px;
+}
+.booking-time p{
+    font-weight: bold; 
+    color: #23274F;
+}
+.booking-time .heading{
+    font-weight: Bold; 
+    color: #23274F;
+    width: 88px;
+    line-height: 22px;
+}
+.booking-time .detail{
+    color: #23274F;
+    font-size: 14px;
+    line-height: 22px;
+}
+.total p:last-child{
+    padding-bottom: 22px;
+}
+.pickup-destination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pickup-destination .left-line{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 22px;
+}
+.pickup-destination .left-line img{
+    margin-bottom: 7px;
+}
+.pickup-destination .left-line img:last-child{
+    margin-bottom: 10px;
+}
+.pickup-destination h6{
+    line-height: 28px;
+}
+.pickup-destination {
+    padding-bottom: 23px;
+}
+.pickup-destination .destination{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 14px;
+}
+@media (max-width: 400px){
+    .booking-time{
+        padding: 16px 8px;
+    }
+}

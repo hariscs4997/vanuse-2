@@ -1,0 +1,26 @@
+.banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 49px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fcfcfc;
+  border: 2px solid #5a5d77;
+  background: linear-gradient(0deg, #23274f, #23274f),
+    linear-gradient(194.46deg, #23274f -134.69%, #8211e9 142.79%);
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 0 2rem 0 2rem;
+  z-index: 999;
+  transition: opacity 1s;
+}
+
+@media (max-width: 767px) {
+  .banner {
+    font-size: 13px;
+    padding: 0 1rem 0 1rem;
+  }
+}

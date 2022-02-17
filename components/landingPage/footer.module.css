@@ -1,0 +1,147 @@
+.footer {
+  width: 100vw;
+  height: 43.04vh;
+  background-image: linear-gradient(
+      90.1deg,
+      #23274f 24.93%,
+      rgba(35, 39, 79, 0) 99.1%
+    ),
+    url(/web-background.png);
+  background-position: center center;
+  background-size: 120%;
+  padding-left: 13.05vw;
+  padding-top: 9.85vh;
+  padding-right: 14.02vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: row;
+  position: relative;
+}
+
+.linksDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 10.72vw;
+}
+
+.linksCon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 7.087vh;
+  flex-wrap: wrap;
+}
+
+.link {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 4.16vw;
+  color: #fff;
+  line-height: 28px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4.14vh;
+}
+
+.store {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.copyright {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  bottom: 3vh;
+  left: 50%;
+  font-weight: normal;
+  font-size: 14px;
+  color: #ffffffaa;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 767px) {
+  .footer {
+    height: unset;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    width: 120px;
+  }
+
+  .linksDiv {
+    align-items: center;
+  }
+
+  .linksCon {
+    margin-left: 2.2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem 4rem;
+  }
+
+  .link {
+    margin-left: 0 !important;
+    display: block;
+  }
+
+  .social a:first-of-type {
+    margin-left: 0 !important;
+  }
+  .social a {
+    margin-left: 2rem !important;
+  }
+
+  .store {
+    margin: 2rem 0 5rem 0;
+  }
+
+  .store img {
+    width: 160px;
+    margin: 0 !important;
+  }
+
+  .store a {
+    margin: 0 !important;
+  }
+
+  .store a:first-of-type {
+    margin-bottom: 1rem !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer {
+    margin-top: 1rem;
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+
+  .logo {
+    width: 120px;
+  }
+
+  .link {
+    font-size: 20px;
+  }
+
+  .copyright {
+    font-size: 1rem;
+  }
+}
